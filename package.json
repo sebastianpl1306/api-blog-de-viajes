@@ -1,0 +1,30 @@
+{
+  "name": "api-blog-de-viajes",
+  "version": "1.0.0",
+  "description": "Esta api permite trabajar con la información de nuestro blog de viajes, buscar, insertar, eliminar y actualizar.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastianpl1306/api-blog-de-viajes.git"
+  },
+  "keywords": [
+    "api",
+    "rest",
+    "blog"
+  ],
+  "author": "sebastian pabon lopez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sebastianpl1306/api-blog-de-viajes/issues"
+  },
+  "homepage": "https://github.com/sebastianpl1306/api-blog-de-viajes#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.19"
+  }
+}
